@@ -1,7 +1,0 @@
-D:\GIT\BMI\BMI\bin\Debug\BMI.exe.config
-D:\GIT\BMI\BMI\bin\Debug\BMI.exe
-D:\GIT\BMI\BMI\bin\Debug\BMI.pdb
-D:\GIT\BMI\BMI\obj\Debug\BMI.csprojResolveAssemblyReference.cache
-D:\GIT\BMI\BMI\obj\Debug\BMI.csproj.CoreCompileInputs.cache
-D:\GIT\BMI\BMI\obj\Debug\BMI.exe
-D:\GIT\BMI\BMI\obj\Debug\BMI.pdb

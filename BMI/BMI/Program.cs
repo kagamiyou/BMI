@@ -10,27 +10,27 @@ namespace BMI
     {
         static void Main(string[] args)
         {
-            //顏色 + 標題
+            // 顏色 + 標題
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.BackgroundColor = ConsoleColor.White;
             Console.WriteLine("====         BMI          ====");
 
-            //輸入
+            // 輸入
             Console.WriteLine("請輸入體重:");
             string input = Console.ReadLine();
 
-            Console.WriteLine("請輸入身高(公尺):");
+            Console.WriteLine("請輸入身高(公分):");
             string output = Console.ReadLine();
 
-            //計算
+            // 計算
             double w = double.Parse(input);
             double h = double.Parse(output);
-            double bmi = w / (h * h);
+            double bmi = w / (h * h / 10000);
 
-            //輸出
+            // 輸出
             Console.WriteLine("您的BMI=" + bmi);
 
-            //結果
+            // 結果
             if (bmi > 31.5)
             {
                 Console.WriteLine("因為過重免兵役了~該認真減肥啦!");
